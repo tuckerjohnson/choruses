@@ -26,6 +26,9 @@ sD = \stemDown
 sU = \stemUp
 sN = \stemNeutral
 
+rTT = \set stemRightBeamCount = 2
+lTT = \set stemLeftBeamCount = 2
+
 ffsempre =
     #(make-dynamic-script (markup #:combine #:transparent "f" "ff" #:combine
 #:transparent "f" #:normal-text #:italic "sempre" ) )

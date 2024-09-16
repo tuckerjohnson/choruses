@@ -5,8 +5,7 @@
 \include "general/scripts.ly"
 \include "general/umbel.ly"
 
-clarinetFont = #-2
-clarinetMagstep = #(magstep -2)
+fingeringSize = #'(size . 0.6)
 
 \paper {
   line-width = 120
@@ -23,7 +22,7 @@ clarinetMagstep = #(magstep -2)
   short-indent = 0\cm
   #(define fonts (set-global-fonts #:music "scorlatti" #:brace "scorlatti" #:roman "Junicode" #:sans "syne"))
   max-systems-per-page = #10
-  system-system-spacing = #'((basic-distance . 10) (minimum-distance . 8) (padding . 12))
+  system-system-spacing = #'((basic-distance . 10) (minimum-distance . 8) (padding . 9))
   score-system-spacing = #'((basic-distance . 2) (minimum-distance . 1) (padding . 0))
   last-bottom-spacing = #'((basic-distance . 5) (minimum-distance . 5) (padding . 0))
   tocTitleMarkup = \markup { \hbracket \sans \bold " contents " }
@@ -177,17 +176,20 @@ clarinetMagstep = #(magstep -2)
           \center-column {
             \override #'(line-width . 100)
             \justify {
-              I was struck by the idea of writing \bold "Net Clarity" while listening
-              to my partner, Amber Lucas, practice one of the Reger clarinet sonatas.
-              The work extends a technical approach I employed to compose short
-              keyboard inventions in my recent piece Circumnutation and explores
-              further the structural potentialities of the diatonic set (equivalent to
-              the major scale) and its relationship to the aggregate (the collection of
-              all 12 notes). These (my) technical proclivities notwithstanding, \bold
-              "Net Clarity" also indulges in the diatonic set as a referential
-              collection \char #8211 hinting at other music, without necessarily
-              quoting. Because of its design, the work creates the sensation of a hazy
-              memory \char #8211 remembering music with varying levels of clarity.
+              Underlying \bold "Choruses" is a cyclic harmonic structure who's
+              features and intervals influence its ever-changing,
+              improvisation-like surface. The musical surface recasts this
+              underlying structure during the 29 repetitions that make up the
+              work \char #8211 29 "\"choruses\"" that present many allusions to
+              Jazz and Free Jazz. The initial version of \bold "Choruses" was
+              completed during one of the latter covid lock-downs as a work for
+              unaccompanied alto saxophone. This new version, created for
+              Floris Van der Veken, incorporates an ambisonic, electroacoustic
+              component: a geometric, resonant expression of the work's
+              structure that transforms and interacts with the soloist. I want
+              to dedicate this work to Tampa Bay saxophonist David Pate, who's
+              tremendous impact on my early musical life resonates far beyond
+              then.
             }
           }
         \vspace #3
@@ -210,9 +212,6 @@ clarinetMagstep = #(magstep -2)
   }
 
   \pageBreak
-  \header {
-    tagline = "test"
-  }
 
   \bookpart {
     \header {
@@ -230,7 +229,7 @@ clarinetMagstep = #(magstep -2)
         \context {
           \Score
           \override RehearsalMark.break-visibility = #begin-of-line-invisible
-          \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/8)
+          \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/20)
           \override Hairpin.to-barline = ##f
         }
       }
