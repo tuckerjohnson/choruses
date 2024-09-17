@@ -174,6 +174,50 @@
   \time 3/4 b-. g''-. cis,,-. f'-. \tuplet 3/2 { b,8( g' des') } f,16-. g,-. e''-. d,,-. |
   \time 5/8 r4 r8 cis''8\f\> a |
   \time 3/4 fis8 ees16 d,-.\p g'[-. ges,-. aes']-. \once \override TupletNumber.text = #tuplet-number::calc-fraction-text \tuplet 4/5 { dis16(\f gis, b fis) } |
-  \time 3/8 b16[( a!]) gis[-.\mp fis,]-. g'[-. e,]-.
+  \time 3/8 b16[( a!]) gis[-.\mp fis,]-. g'[-. e,]-. |
+  \time 5/4 aes'16(\f f) r8 \tuplet 3/2 { f'8( gis a) } b,,,8.(\p\< d16) g8.( fis16) fis16(->\f c) r8 |
+  \time 4/4 b8( a') e16-.\mp d'-. a-. fis'-. r4 r16 a8---> fis'16-. |
+  \time 9/16 cis,-. b,-. d'-. ees4.(\< |
+  \time 5/16 ges8[ c16]) c,,8--\mf |
+  \time 3/4 \tuplet 3/2 { b''( a gis) } d16-.\mp a'-. fis,-. f'!-. r4 |
+  r16 bih,8.~\mf \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five six)) (lh . (b)) (rh . (low-c ees)))
+    }
+  }
+  <bih cis dih cis' g'>4 aes16( ees') <b c' geh'>8 \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five)) (lh . (low-bes)) (rh . (c low-c)))
+    }
+  }
+  |
+  \time 3/8 <fis fis' cis' fis>8~  \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five)) (lh . ()) (rh . (fis low-c)))
+    }
+  }
+  \tuplet 3/2 { 8[ b'8-> g,]-> } |
+  \time 3/4 <fis g' cisih fisih>8 \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three five six)) (lh . (cis)) (rh . (low-c)))
+    }
+  }
+  e'8(~\< e4~ e16~ \tuplet 3/2 { e16[\f g d] } a16)\p |
+  r4 d,4~\< \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five six)) (lh . (low-bes)) (rh . (ees low-c)))
+    }
+  }
+  d8
 
 }
