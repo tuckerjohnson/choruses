@@ -176,20 +176,19 @@ fingeringSize = #'(size . 0.6)
           \center-column {
             \override #'(line-width . 100)
             \justify {
-              Underlying \bold "Choruses" is a cyclic harmonic structure who's
+              Underlying \bold "Choruses" is a cyclic harmonic structure whose
               features and intervals influence its ever-changing,
               improvisation-like surface. The musical surface recasts this
-              underlying structure during the 29 repetitions that make up the
-              work \char #8211 29 "\"choruses\"" that present many allusions to
-              Jazz and Free Jazz. The initial version of \bold "Choruses" was
-              completed during one of the latter covid lock-downs as a work for
-              unaccompanied alto saxophone. This new version, created for
-              Floris Van der Veken, incorporates an ambisonic, electroacoustic
-              component: a geometric, resonant expression of the work's
-              structure that transforms and interacts with the soloist. I want
-              to dedicate this work to Tampa Bay saxophonist David Pate, who's
-              tremendous impact on my early musical life resonates far beyond
-              then.
+              underlying structure during 29 repetitions \char #8211 29
+              "\"choruses\"" that present many allusions to Jazz and Free Jazz.
+              The initial version of \bold "Choruses" was completed during one
+              of the latter COVID lockdowns as a work for unaccompanied alto
+              saxophone. This new version, created for Floris Van der Veken,
+              incorporates an ambisonic, electroacoustic component: a geometric
+              resonant expression of the work's structure that transforms and
+              interacts with the soloist. I want to dedicate this work to Tampa
+              Bay saxophonist David Pate, whose tremendous impact on my early
+              musical life resonates far beyond then.
             }
           }
         \vspace #3
@@ -224,7 +223,7 @@ fingeringSize = #'(size . 0.6)
       <<
         \include "manuscripts/altoSaxophone.ly"
       >>
-      %\midi { }
+      \midi { }
       \layout {
         \context {
           \Score
