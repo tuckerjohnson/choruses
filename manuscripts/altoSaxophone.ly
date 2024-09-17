@@ -125,7 +125,7 @@
   \time 4/4 a2.) r4 |
   \tuplet 3/2 { ges,8(\f f bes) } aes16-.\> ges'-. g,!-. ees'-.\mp r4 bes,4(~\pp |
   \tuplet 3/2 { bes2 b! g'4 cis,) } |
-  r4 e'16\mp d,-. a''-. fis,-. r4 r8. f!16-. |
+  r4 e'16-.\mp d,-. a''-. fis,-. r4 r8. f!16-. |
   c''-. b,-. d'-. r16 r4 r2 |
   <b, d c' gis'>8\f \offset Y-offset 5 ^\markup {
     \center-column {  \override \fingeringSize
@@ -141,6 +141,39 @@
         #'((cc . (one two three four five six)) (lh . ()) (rh . (bes)))
     }
   }
-  4
+  4~ |
+  4 r8 r16 b'^~ \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five)) (lh . (low-bes)) (rh . (bes low-c)))
+    }
+  }
+  <b~ fis' a,,>4 16~ b8. |
+  r16 f,16-.\mp bes'-. b,,!-. g''-. r8. r4 g16-. fis,-. gis'-. dis,-. |
+  \time 3/4 b'4~\mf \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five)) (lh . (low-bes)) (rh . (c low-c)))
+    }
+  }
+  b16~ <b c' geh'>8.~ 4~ |
+  8 r8 r4 ees,16-.\mp ges'-. c,,-. b''-. |
+  r4 r16 b16-. g,-. cis'-. fis,,-. r8. |
+  \time 5/16 r16 fis16[-. g'-. e,-. d'']-. |
+  \time 3/4 fis,4~\p fis8. a'16~ a4 |
+  \time 4/4 d,16-.\mp g,,-. ges'-. aes,-. f''4~\mf \tuplet 3/2 { f8 bes,4~ } bes4~ |
+  \time 5/16 bes8 r8. |
+  \time 4/4 ais,,4(\pp b g'4. cis,8) |
+  cis''4(\f\> \tuplet 3/2 { b4 c8~ } \tuplet 3/2 { c8 ges4)\p } f16-.\mf bes,,-. b''!-. g,-. |
+  \time 6/16 b8.[\> a'] |
+  \time 2/4 a4.(\p aes16\< fis
+  \time 3/4 g8)\f r16 g16~( g16 des'16) ees,-. ges,-. c'-. b,,-. a'8( |
+  \time 3/16 dis8) dis,16-. |
+  \time 3/4 b-. g''-. cis,,-. f'-. \tuplet 3/2 { b,8( g' des') } f,16-. g,-. e''-. d,,-. |
+  \time 5/8 r4 r8 cis''8\f\> a |
+  \time 3/4 fis8 ees16 d,-.\p g'[-. ges,-. aes']-. \once \override TupletNumber.text = #tuplet-number::calc-fraction-text \tuplet 4/5 { dis16(\f gis, b fis) } |
+  \time 3/8 b16[( a!]) gis[-.\mp fis,]-. g'[-. e,]-.
 
 }

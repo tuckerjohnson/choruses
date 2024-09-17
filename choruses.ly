@@ -16,14 +16,14 @@ fingeringSize = #'(size . 0.6)
   print-all-headers = ##f
   top-margin = 0.5\in
   bottom-margin = 0.5\in
-  left-margin = 0.9\in
-  right-margin = 0.9\in
-  indent = 0.75\in
+  left-margin = 0.75\in
+  right-margin = 0.75\in
+  indent = 1\in
   short-indent = 0\cm
   #(define fonts (set-global-fonts #:music "scorlatti" #:brace "scorlatti" #:roman "Junicode" #:sans "syne"))
   max-systems-per-page = #10
-  system-system-spacing = #'((basic-distance . 10) (minimum-distance . 8) (padding . 9))
-  score-system-spacing = #'((basic-distance . 2) (minimum-distance . 1) (padding . 0))
+  system-system-spacing = #'((basic-distance . 5) (minimum-distance . 3) (padding . 6))
+  score-system-spacing = #'((basic-distance . 2) (minimum-distance . 0) (padding . 0))
   last-bottom-spacing = #'((basic-distance . 5) (minimum-distance . 5) (padding . 0))
   tocTitleMarkup = \markup { \hbracket \sans \bold " contents " }
 
@@ -223,7 +223,7 @@ fingeringSize = #'(size . 0.6)
       <<
         \include "manuscripts/altoSaxophone.ly"
       >>
-      \midi { }
+      %\midi { }
       \layout {
         \context {
           \Score
