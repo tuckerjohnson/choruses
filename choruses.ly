@@ -223,7 +223,7 @@ fingeringSize = #'(size . 0.6)
       <<
         \include "manuscripts/altoSaxophone.ly"
       >>
-     % \midi { }
+     %\midi { }
       \layout {
         \context {
           \Score

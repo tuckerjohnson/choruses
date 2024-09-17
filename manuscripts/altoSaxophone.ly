@@ -218,6 +218,7 @@
         #'((cc . (one two three four five six)) (lh . (low-bes)) (rh . (ees low-c)))
     }
   }
-  d8
+  d8~ <d d' e beh' gih'>8~ |
+  4\mf fis8
 
 }
