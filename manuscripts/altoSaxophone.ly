@@ -422,6 +422,11 @@
   }
   4~ 4 \breathe g8--\f bes,16-.\p g'-. fis'-. a-. r8 b8.\f bes,,16~
   bes a''16-.\p b,-. c,-. ges'-. f'8.~\f 16 fis,-.\p g'-. d'-. b-. r8. |
-
+  r8 b16-. bes,-. a-. ges-. a'8(\mf d) fis,,16-.\p a'-. g'-. b,-. r8 |
+  \time 5/8 r8 b16-. ees,-. aes,-. f-. r16 d'8(\mf b'16) |
+  \time 4/4 aes,-. ees-. a!-. des-. \tuplet 3/2 { c4->(\f f,8) } ges2\> |
+  ges8\p r16 des'16-. g-. des'-. ees-. a16~(\f a16 d,8. e!8) ees16-.\p a,-. |
+  d-. g,,-. r8 r4 e'16--\mf g,-.\p fis-. gis-. a'-. e8.~\< |
+  e8 \tuplet 3/2 { g16( fis aes) } \tuplet 3/2 { aes4( fis'8) } g8(\f d8)
 
 }
