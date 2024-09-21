@@ -345,9 +345,8 @@
     }
   }
   4
-  \time 5/16 r8 a,8.--\f |
-  \time 2/4 e'8-- ees---> d,8.\mp fis16--->\f |
-  \time 5/16 des''8.\mp c,8~ |
+  \time 2/4 r8 a,8~--\f a16 e'8-- ees16~---> |
+  \time 5/8 ees16[ d,8.]\mp fis16--->\f des''8.\mp c,8~ |
   \time 2/4 \tuplet 3/2 { c4 b,4->--\f a'8 gis'8 } |
   \time 7/16 <g cih, ceh, beh>4~\mf \offset Y-offset 5 ^\markup {
     \center-column {  \override \fingeringSize
@@ -365,7 +364,64 @@
     }
   }
   aes,,8~( 4~\> |
-  4 \repeat tremolo 4 { aes32 ees) } g16\p( b,8.-.)
+  4 \repeat tremolo 4 { aes32 ees) } g16\p( b,8.-.) |
+  r8. cis'16~\mp  \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (two three four six)) (lh . (cis)) (rh . (low-c)))
+    }
+  }
+  cis16~ <bih cis dih cis' g'>8.~ 16 r8. |
+  <b c' geh'>8->\f \offset Y-offset 1 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five)) (lh . (low-bes)) (rh . (c low-c)))
+    }
+  }
+  <fis fis' cis' fis>4.( \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five)) (lh . ()) (rh . (fis low-c)))
+    }
+  }
+  <fis f' deh' geh>4)\mp \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three five six)) (lh . (cis)) (rh . (low-c)))
+    }
+  }
+  \time 4/4 a'16(\mf\> f ges bes, a' f ges bes, a'\p f ges bes, a) bes32(\f\> \rTT a \lTT aes g ges f |
+  d ges) a16(\p ges' f bes) r8. r2 |
+  bes,,16(\pp^"subtone" b'! g' des' bes b,! g des bes b'! g' des' bes b,! g des) |
+  r16 des''( a c b des\< a c\mf\> b des a\pp c b) f->\mf ais-> b32( bes |
+  a g cis,16 a) r16 r4 g32(\pp gis a \rTT b \lTT cis dis fis g) r4 |
+  r8 a16( aes g fis g gis a!) r8. r16 g,16(\mp des a' |
+  ees) g32(\f\> \rTT b \lTT c des a aes g16\mp des a' ees) ees'(\mf des' g, cis, dis32\< fis b,16 g'  cis,) |
+  dis-> b'-> g'32(\f fis e ees d32 cis b g) r8 r8. cis16( a,) ees'(\> ges,) des( |
+  ees) a32(\mp \rTT g \lTT fis d cis dis fis gis a16) ees'( f,)  b(\< gis') fis( b) a( gis) fis32( e fis g |
+  a16 b) a16->\f ges( f, ais, b) ges'( f' ais  b) r16 r16 b(\pp^"subtone" d, g, |
+  fis b, d g fis' b) fis'( c b, a fis c b) a'32(\mf\> \rTT b \lTT d fis e c |
+  a fis)\p r8. r8 des''16-.\mp g,-. b,-. bes,-. <b' d c' gis'>8~ \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (two three four five six)) (lh . (b)) (rh . ()))
+    }
+  }
+  4 |
+  r2 r8. <aih bes' gih'>16~ \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five)) (lh . (cis)) (rh . (c)))
+    }
+  }
+  4~ 4 \breathe g8--\f bes,16-.\p g'-. fis'-. a-. r8 b8.\f bes,,16~
+  bes a''16-.\p b,-. c,-. ges'-. f'8.~\f 16 fis,-.\p g'-. d'-. b-. r8. |
 
 
 }
