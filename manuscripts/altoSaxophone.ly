@@ -399,7 +399,7 @@
   bes,,16(\pp^"subtone" b'! g' des' bes b,! g des bes b'! g' des' bes b,! g des) |
   r16 des''( a c b des\< a c\mf\> b des a\pp c b) f->\mf ais-> b32( bes |
   a g cis,16 a) r16 r4 g32(\pp gis a \rTT b \lTT cis dis fis g) r4 |
-  r8 a16( aes g fis g gis a!) r8. r16 g,16(\mp des a' |
+  r8 a,16( aes g fis g gis a!) r8. r16 g16(\mp des a' |
   ees) g32(\f\> \rTT b \lTT c des a aes g16\mp des a' ees) ees'(\mf des' g, cis, dis32\< fis b,16 g'  cis,) |
   dis-> b'-> g'32(\f fis e ees d32 cis b g) r8 r8. cis16( a,) ees'(\> ges,) des( |
   ees) a32(\mp \rTT g \lTT fis d cis dis fis gis a16) ees'( f,)  b(\< gis') fis( b) a( gis) fis32( e fis g |
