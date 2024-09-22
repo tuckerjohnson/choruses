@@ -42,11 +42,6 @@ fingeringSize = #'(size . 0.6)
     \concat { \if \on-page #11 \oddhead }
     \concat { \if \on-page #13 \oddhead }
     \concat { \if \on-page #15 \oddhead }
-    \concat { \if \on-page #17 \oddhead }
-    \concat { \if \on-page #19 \oddhead }
-    \concat { \if \on-page #21 \oddhead }
-    \concat { \if \on-page #23 \oddhead }
-    \concat { \if \on-page #25 \oddhead }
 
   }
   evenHeaderMarkup = \markup {
@@ -57,11 +52,6 @@ fingeringSize = #'(size . 0.6)
     \concat { \if \on-page #12 \evhead }
     \concat { \if \on-page #14 \evhead }
     \concat { \if \on-page #16 \evhead }
-    \concat { \if \on-page #18 \evhead }
-    \concat { \if \on-page #20 \evhead }
-    \concat { \if \on-page #22 \evhead }
-    \concat { \if \on-page #24 \evhead }
-    \concat { \if \on-page #26 \evhead }
   }
   oddFooterMarkup = \markup {
     \concat { \if \on-page #3 \fill-line { \null \xcr \null } }
@@ -71,11 +61,6 @@ fingeringSize = #'(size . 0.6)
     \concat { \if \on-page #11 \oddfoot }
     \concat { \if \on-page #13 \oddfoot }
     \concat { \if \on-page #15 \oddfoot }
-    \concat { \if \on-page #17 \oddfoot }
-    \concat { \if \on-page #19 \oddfoot }
-    \concat { \if \on-page #21 \oddfoot }
-    \concat { \if \on-page #23 \oddfoot }
-    \concat { \if \on-page #25 \oddfoot }
   }
   evenFooterMarkup = \markup {
     \concat { \if \on-page #2 \evfoot }
@@ -86,11 +71,6 @@ fingeringSize = #'(size . 0.6)
     \concat { \if \on-page #12 \evfoot }
     \concat { \if \on-page #14 \evfoot }
     \concat { \if \on-page #16 \evfoot }
-    \concat { \if \on-page #18 \evfoot }
-    \concat { \if \on-page #20 \evfoot }
-    \concat { \if \on-page #22 \evfoot }
-    \concat { \if \on-page #24 \evfoot }
-    \concat { \if \on-page #26 \fill-line { \null \tiny \typewriter \longHash \null } }
   }
 
 }
@@ -237,4 +217,6 @@ fingeringSize = #'(size . 0.6)
 
   \pageBreak
   \markup { \null }
+  \pageBreak
+  \markup { \fill-line { \center-column { \vspace #25 \xumbel \vspace #1 \tiny \typewriter \longHash } } }
 }

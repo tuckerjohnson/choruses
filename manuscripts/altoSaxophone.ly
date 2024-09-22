@@ -427,6 +427,227 @@
   \time 4/4 aes,-. ees-. a!-. des-. \tuplet 3/2 { c4->(\f f,8) } ges2\> |
   ges8\p r16 des'16-. g-. des'-. ees-. a16~(\f a16 d,8. e!8) ees16-.\p a,-. |
   d-. g,,-. r8 r4 e'16--\mf g,-.\p fis-. gis-. a'-. e8.~\< |
-  e8 \tuplet 3/2 { g16( fis aes) } \tuplet 3/2 { aes4( fis'8) } g8(\f d8)
+  e8 \tuplet 3/2 { g16( fis aes) } \tuplet 3/2 { aes4( fis'8) } g8(\f d8) a16-.\p cis-. g-. b,-. |
+  \time 5/8 r4 d'8[(\mp e,16) g8( f,16]) |
+  \time 2/4 b16-. c,-. ges'-. des''-. g4\< |
+  \time 3/16 b8. |
+  \time 4/4 des,,,4~\ff 8 r8 \tuplet 3/2 { c8--\f ges'-- ees-- } a16(\> d e g |
+  \time 3/8 a d e)\mp\< g,( a) d,( |
+  \time 4/4 e) g,( b) ees,( aes) fis'8.(~\f 8 g8~ 16) r8. |
+  r4 \tuplet 3/2 { d,8--\mp\< e-- g-- } \grace { fis16( } gis16-.) a( b c) fis8.--\f\> gis16(
+  \time 7/16 a[) cis,-. b']-- g[-.\p b-. b,,8]--\f |
+  \time 4/4 fis'16(\pp dis' a' cis) fis,( dis\< a' c! fis dis a)\mf r16 \tuplet 3/2 { r8 c,,8 ges''8(~ } |
+  8. ees16~ 8) ees,(~ ees4\p aes8\< f |
+  \time 3/4 g16) g'-- b,,8~\f\> b4~ b16 g'16-.\p fis'-. gis'-.
+  \time 5/16 a,-. r8 r8 |
+  \time 4/4 bes,,4.( f'8~ f8.) a'16-. cis,-. g-. b,-. r16 |
+  \time 2/4 \tuplet 3/2 { f'4_(\< fis\f\> \after 8 \p a') }
+  \time 5/16 r16 b,,16-. c'[-. cis'-. fis,]-. |
+  \time 4/4 d'4 r8 d,,8(\mf\> \tuplet 3/2 { a'8 c, f') } des16-.\p g,-. b-. bes,-. |
+  r16 f''8.~\< 8. \breathe gis16(\f a b c) gis(\p a b c) a,16~\f |
+  a8 c'16(\p gis a b) d,,8-.->\f a''16(\p b) e,,8--->\f bes16-.\p f'-. fis'-. a-. |
+  d16(\< e g) fis16~\f 16 a,16-.\p b-. c,-. fis,-. gis'8--->\f b,16( ees, aes) f16-. g-. |
+  d'-. b'-. gis16(\f b, ees, aes) g( b) b'-.\p bes,-. f-. ges'-. r4 |
+  fis16-. gis-. a-. b-. r16 fis-. cis'8--\mf b16-.\p dis-. gis,-. fis,-. g(\< b) b,8--\mf |
+  \time 7/8 fis'16[-.\p dis-. a'-. cis]-. c,!4.\f ges'4( |
+  \time 4/4 ees8-.) r16 <fis fisih' cis'>16~ \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four six)) (lh . (b)) (rh . (fis)))
+    }
+  }
+  16 c'-.\mp gis'-. b-. dis-. gis8-.\< <geh c, b,>16~ \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five)) (lh . (low-bes)) (rh . (c low-c)))
+    }
+  }
+  \tuplet 3/2 { 8 fis8( g)\f\> } |
+  \time 3/8 dis16-. b-. c,-. g16~\p g8~ |
+  \time 4/4 2.~ 8 b,8(~ |
+  b8 c4.~ 16) r8. f'16->\mp f8.~ |
+  f8. fis16(~ 8 a8~ 16) cis,16-. g-. b,-. dis-. d'8.\p \breathe |
+  \time 3/4 \tuplet 3/2 { d'8--->\f des---> c---> } ees,,16-.\p a-. cis-. g'-. f8 r16 fis16(\mf |
+  \time 3/16 a'8.) |
+  \time 4/4 g,16-.\p fis'-. a,-. aes,-. \tuplet 3/2 { r8 d'(\mf e) } g16(\> b, dis, cis g, b dis cis
+  g' b dis)\pp a-. cis,-. g'-. b-. r16 r8. e,16~\mf 16 g16-. gis( a) |
+  b-.\> c'-. fis,-. cis-. b( c!)\p fis,16--\mf\< gis16~-- 16 f16-- g'!16( d') c(\f\> fis,! a dis,) |
+  cis-.\mp g-. b,-. bes-. r8 a'''16\f d,,,16~\p d4 e16(\< g a d |
+  e16) g8.~\mf g8.\< a16( d e) fis8~\ff 4 \breathe |
+  bes,,,16-.\p f'-. fis'-. a-. r4 r16 a16-. b-. c-. fis,,-. r8. |
+  r8 fis16-. g-. d'-. b'-. r8 r4 b16-. bes-. e,-. f,-. |
+  r4 f16-. gis-. a-. b-. r4 b16-. dis'-. gis,-. fis,-. |
+  r4 fis16-. dis-. a'-. cis'-. r2 |
+  r2 r4 r16 <cis d, c>8.~(\mp \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five)) (lh . (ees low-bes)) (rh . (low-c)))
+    }
+  }
+  4~ 2.~\< |
+  4 <b, c' geh'>8)\f \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five)) (lh . (low-bes)) (rh . (c low-c)))
+    }
+  }
+  r8 aes2~\pp |
+  aes8 fis g\< d-> d->\mp e g fis-> |
+  \time 3/16 fis8.-> |
+  \time 4/4 cis8\p g' b,->\< b-> c2~\mf |
+  c8 f8-> ees'2~\p ees8 ees8->\f |
+  \tuplet 3/2 { aes8( fis g) } a,!16( gis ees c) a'16(\> gis ees c) g'!8.\p a16(\f |
+  d, e\> g) b,16~\p 4~ 16 g'16(\f b, ees aes g\> b, ees) |
+  bes4\p g'16(\f b,16) f'8\p g16 f8 aes16(\f g b, e fis) |
+  gis( a b,\> cis) a'8.\p d,16~ d8 cis16(\f gis') d4\p |
+  \time 5/16 r16 b8->\< c-> |
+  \time 3/4 aes'-> ges->\ff a''2(\p |
+  d,4) r4 d4( |
+  \time 5/16 e8) r16 <cis g fih,>8\f \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three five six)) (lh . ()) (rh . (low-c)))
+    }
+  }
+  \time 4/4 <g' bih, beh,>4 \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five six)) (lh . (low-bes)) (rh . (c)))
+    }
+  }
+  r8 e8~\p 8 g4 fis8 |
+  aes8 aes8~ 16 fis8 g16~ g16 d8. \breathe g16(\mf d) bes( f) |
+  fis32(\< g a b) bes16(\ff f) g(\> b,) bes\p r32 ais,32(\f b c f\> \rTT fis \lTT g a) b16( bes)\p r8. |
+  r2 r8 ais,16(\< b f' fis a) d,( |
+  f fis) a32(\mf b a aes ges\> f ges d f16 fis) a( d,)\p r16 ees32(\f f fis gis a b a16) d( |
+  b' c fis, d-.) b'32(\> c cis d ees16 d-.)\mp r8 fis,,16(\f a d, e fis\> a |
+  d e fis\mp\< a, d,) b32(\f\> \rTT cis \lTT d dis e fis g a)\pp r8. r4 |
+  r16 a''32(\mf \rTT g \lTT fis ees d cis) d16(\p e, fis) a(\f d, e) e(\p g fis\< g) e32( cis g16 |
+  fis\f\> gis e8-.)\mp r8 aes16(\p f g) d-.->\f aes'(\p f g) r16 r32 fis'32(\f g gis |
+  a b cis e) r8 r8 d16(\pp\< e, g fis, d' e,) g32(\mp\> fis c b fis'16 cis |
+  g' b, fis')\pp r16 r8. b'16( c ges ees b c ges ees b |
+  c) r16 a''16-.\mf d,-. e,-. g-.\> ees( b c)\pp r8. r16 g'-.\mf b-. ees-. |
+  aes-. fis(\> g ees' aes, fis g ees aes, fis g)\pp r16 r4 |
+  d'16(\f e, g' fis,) gis-.\mp a'-. b,-. a'-. fis'(\ff cis g d fis cis\> g d |
+  fis b,) c-.\mp fis' ees'-. a,,-. c,(\pp fis dis' b' c, fis, dis b fis' dis' |
+  b' c, fis, dis\< b' fis' dis' b')\mf r16 ees,(\pp aes, f g, ees aes f' |
+  g ees') r8 g,,16(\p b, bes f') g(\mf b, bes f') b32(\p bes a \rTT aes \lTT g ges ees g |
+  f16 g b,) r16 r4 r4 r8.. g''32(\p\< |
+  fis g a \rTT ais \lTT b cis ais16) f'(\f fis d a' f fis d) r16 r16 b32(\mf \rTT d \lTT ges f ees a, |
+  c16) r16 f,,16(\p fis d) r16 d( b' c fis d b) r8 b,32(\mf fis' c' d) |
+  r16 fis'16(\p a, d, e f a,) gis-.\mf a'-. b-. c,-. r16 r8. e,16(\f |
+  fis'8-.) d16( a) c,-.\p f'-. ees,-. aes'-. r4 r32 d,32(\f\> e f ges bes a16-.)\p |
+  d,,-. e'-. g-. ges'(\f aes, e g, fis aes e) g''-.\p b,-. d,-. aes-. f(\< g |
+  d' gis32 b) fis'16(\f g, d aes) r8 e''16(\p gis, f32\< fis g b d16\mf aes fis g,) |
+  g32(\< b d \rTT fis \lTT aes g fis a d16)\f fis( cis g b,) cis32(\< \rTT gis' \lTT dis b g! fis d16)\ff fis( b, c' |
+  \time 2/4 ges' ees'32\> \rTT des \lTT c b a g ges16)\pp r8. |
+  \time 3/8 r8 r8 ees,16(\p ges
+  \time 2/4 c, b ees) c''--\mf\< \tuplet 3/2 { fis8( ees g)\f } |
+  \time 3/4 ees,,16(\mp aes fis'\< g'16~ g8)[ des8]\f <e a, aih,>8 \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five six)) (lh . ()) (rh . (bes)))
+    }
+  }
+  <gih cih, d,>8 \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (two three four)) (lh . ()) (rh . ()))
+    }
+  }
+  \time 3/16 g,,16[(\mp\< b, bes'] |
+  \time 4/4 f' g' b8~\ff 4~ 2~\> |
+  \tuplet 3/2 { 4) c,8(~\p } c4 g16\> b, f bes,)\pp r16 f'''16( fis, a |
+  d, f! fis, a d, f\< fis a d f32 \rTT fis \lTT g a b cis d ees f16\f fis) r16 |
+  fis,,16(\pp c b' d\< fis32 g a \rTT b \lTT c cis d ees d16)\f r8 fis,,!16(\pp a d, e fis32\< g |
+  gis a e' d e16\f fis) r8. g16-.\p b,,-. dis''-. g,,-. r16 r4 |
+  r8 r32 e''32(\f d cis b\> a g fis e16 f a d)\mp r16 e,,(\mf g fis) gis'16-.\p a,-. |
+  b,-. c'-. gis''32(\f fis e c aes16) r8 aes'16( fis, g d aes) c,-.\mp f-. fis'-. a-. |
+  gis'16(\f fis32 d32 b16)\> bes32( g32 gis16)-. fis--\mp a-. d,,-. e-. g'-. fis,(\f\> d e g) fis( d |
+  e g) fis( d e g) fis( d e g) f!8->-.\pp r4 |
+  \time 3/16 beh'8.~\< \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one three four five)) (lh . (bes)) (rh . (ees low-c)))
+    }
+  }
+  |
+  \time 4/4 <beh fis' aih,,>4. <beh fis' b,, aih>8~\mf \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one three four five)) (lh . (bes low-bes)) (rh . (ees)))
+    }
+  }
+  4~ 8 r16 b,~\p\< \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (two three four five six)) (lh . (low-bes)) (rh . ()))
+    }
+  }
+  |
+  b8~ <b d c' g'>4~\mf 8 \breathe <aih b' fis'>2\mp \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one three four five)) (lh . (bes)) (rh . (ees)))
+    }
+  }
+  |
+  aih!4~\p\< \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one three four five)) (lh . (bes)) (rh . (ees low-c)))
+    }
+  }
+  <aih beh' fis'>4 <d, d' e beh' gih'>2\mf \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five six)) (lh . (b)) (rh . (ees low-c)))
+    }
+  }
+  |
+  <ees ees' beh' eeh>2~\p \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three four five six)) (lh . (low-bes)) (rh . (ees)))
+    }
+  }
+  8. dis''16~\< \offset Y-offset 5 ^\markup {
+    \center-column {  \override \fingeringSize
+      \woodwind-diagram
+        #'saxophone
+        #'((cc . (one two three five six)) (lh . (ees low-bes)) (rh . (fis)))
+    }
+  }
+  8.~ <dis eis, cis>16~\mp |
+  4~ dis16 r8. r8 g,,8~\pp\< g4~ |
+  16 d8.~ d4 b4\mp\> c |
+  bes~\pp 16 \breathe gis'''16(\mf\> fis, g, d fis8.~\p 8) cis~ |
+  16 gis'''16\mf(\> fis, g, d) d(\p e g fis) d( e g fis) fis(\< cis g' |
+  b,)\f g'8.~\p 8 b,16(\> c fis ees' b c fis)\pp r8. |
+  r2 r4 r16 ees'16(\mf aes, fis |
+  g ees aes,) c,-.\p fis-. ees'-. a-. fis(\mf\< g b bes f' g)\f a-.\p d,,-. e-. |
+  g,-. b,(\f bes8-.) r4 g''16-.\p b,,-. dis-. gis-. r4 |
+  r2 f16(\< fis a d f fis a)\mf gis,-.\p |
+  a'-. b,-. c,-. r16 r4 r8. d16( b c fis d |
+  b c fis d b\< c) fis( a d e fis a)\mf a,16(\ff\> d, e fis |
+  d e fis d\pp e fis d e fis a d, e fis a)-.->\sf r8 \bar "|."
+
+
+
 
 }
