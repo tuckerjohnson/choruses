@@ -1,8 +1,8 @@
 xtitle = \markup { Choruses }
-xsub = \markup { " " }
+xsub = \markup { "for Floris Van der Veken" }
 xcomp = \markup { Tucker Johnson }
-xinst = \markup  { alto saxophone and electronics }
-xdur = \markup { \null }
+xinst = \markup  { alto sax & live electronics }
+xdur = \markup { 10 minutes }
 xcr = \markup \tiny { Copyright Tucker Johnson 2024. All Rights Reserved (ASCAP) }
 oddhead = \markup { \fill-line { \null \center-column { \bold { \xcomp } "  " } \null } }
 evhead = \markup { \fill-line { \null \center-column { \bold { \xtitle } "  " } \null } }

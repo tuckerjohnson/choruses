@@ -194,10 +194,11 @@ fingeringSize = #'(size . 0.6)
 
   \bookpart {
     \header {
-      title = \markup { \fontsize #1 \xtitle }
+      title = \xtitle
       subtitle = \markup { \medium \italic \xsub }
+      dedication = \markup { \fontsize #-4 \italic "dedicated to David Pate" }
       composer = \xcomp
-      poet = \markup { \xinst }
+      poet = \xinst
     }
     \score {
       <<
