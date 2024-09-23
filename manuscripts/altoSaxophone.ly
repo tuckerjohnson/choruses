@@ -471,7 +471,7 @@
   f8. fis16(~ 8 a8~ 16) cis,16-. g-. b,-. dis-. d'8.\p \breathe |
   \time 3/4 \tuplet 3/2 { d'8--->\f des---> c---> } ees,,16-.\p a-. cis-. g'-. f8 r16 fis16(\mf |
   \time 3/16 a'8.) |
-  \time 4/4 g,16-.\p fis'-. a,-. aes,-. \tuplet 3/2 { r8 d'(\mf e) } g16(\> b, dis, cis g, b dis cis
+  \time 4/4 g,16-.\p fis'-. a,-. aes,-. \tuplet 3/2 { r8 d'(\mf e) } g16(\> b, dis, cis g b, dis cis
   g' b dis)\pp a-. cis,-. g'-. b-. r16 r8. e,16~\mf 16 g16-. gis( a) |
   b-.\> c'-. fis,-. cis-. b( c!)\p fis,16--\mf\< gis16~-- 16 f16-- g'!16( d') c(\f\> fis,! a dis,) |
   cis-.\mp g-. b,-. bes-. r8 a'''16\f d,,,16~\p d4 e16(\< g a d |
