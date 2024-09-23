@@ -306,7 +306,7 @@
   g a)\mf\> a32( g ges f d fis gis a gis16\p g'!) g->(\f\< cis, a ees) g( cis a') ees'( |
   \time 2/4 g, cis,)\ff r16 ees'16\mp( b, g' des' ees) |
   \time 5/8 c8.-.-> b,16(\mf g' des' ees) b8( a16) |
-  \time 2/4 b32(\> bes g e ees c b! g cis,16\p a' ees' ges |
+  \time 2/4 b32(\> bes g \rTT e \lTT ees c b! g cis,16\p a' ees' ges |
   \time 5/16 aes8) r16 dis,,32[(\pp fis gis a] |
   \time 4/4 gis8.) dis'16(\mp\> b4 g'8-.)\pp r16 g16-- b,(\< a gis fis) |
   \tuplet 3/2 { e8--->\f d'---> a'-.-> } r16 a,8~\mf a32\> aes32( f ees c bes b16\p d' g, fis) b(\< d
