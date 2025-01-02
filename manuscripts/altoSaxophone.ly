@@ -17,8 +17,8 @@
   \clef treble
   \tempo "Poco rubato" 4=100
   \time 4/4
-  a''32(\f\> fis e \rTT ees \lTT d c a16 d, e fis) e(\mp\< g fis' gis e g) gis32( \rTT a \lTT b  c e fis
-  g gis)\ff r8. r4 r4 r16 ees,16-.\p fis,-. c'-.
+  a''32(\f\> fis e \rTT ees \lTT d c a16 d, e fis) e(\mp\< g fis' gis e g) gis32( \rTT a \lTT b  c e fis | %001
+  g gis)\ff r8. r4 r4 r16 ees,16-.\p fis,-. c'-. | %002
   b,-. r8.  <ceh' eeh cis' gis'>8 \offset Y-offset 5 ^\markup {
     \center-column {  \override \fingeringSize
       \woodwind-diagram
@@ -26,7 +26,7 @@
         #'((cc . (two three five)) (lh . ()) (rh . (low-c)))
     }
   }
-  b,16-. g''-. des,-. ges'-. r8 r8 fis16-. g,-.
+  b,16-. g''-. cis,,-. fis'-. r8 r8 fis16-. g,-. | %003
   f'-. d'-. <d a' cisih,,>8 \offset Y-offset 5 ^\markup {
     \center-column {  \override \fingeringSize
       \woodwind-diagram
@@ -34,21 +34,21 @@
         #'((cc . (two three five)) (lh . (d)) (rh . ()))
     }
   }
-  r4 r4 r8 des,,16-. g'-. |
-  \time 3/4 ges-. aes,-. r8 r4 r8 aes''16-. fis,-. |
-  g-. e'-. r8 r4 r4 |
-  \time 4/4 r16 c,16(\f\> b d g, c b d g,)\p g'(\f\> des fis, c g'' des fis, |
-  c g'')\p e,-.\mf d-. a''-. fis-. des(\p\< fis, c g'' des fis, c)\f fis-.\mf c''-. b,-. |
-  d'8-- r8 \tuplet 3/2 { g8(\mp fis4) } fis,8.( c'16) b8( a) |
-  \time 3/16 d,,16[-. a''-. ges,]-. |
-  \time 3/4 f'2~ f8 r8
-  \time 4/4  r16 bes8.~\pp bes4~ bes8 r8 r8. f16-.\mp |
-  bes,,-. b''! g8~( \tuplet 3/2 { g4 cis8 } cis8) g16-. ges,-. aes'-. ees,-. r8 |
-  \time 3/8 des'4. |
-  \time 4/4 \tuplet 3/2 { ges4\< c,4 b' } \tuplet 3/2 { b g' cis,~\f } |
-  \time 5/8 cis4 a'4. |
-  \time 3/16 r16 ges,,8\mp |
-  \time 4/4 aes'8 ges c,4 \breathe g''4~(\< g8 \tuplet 3/2 { cis,16 a dis,-.)\f } |
+  r4 r4 r8 des,,16-. g'-. | %004
+  \time 3/4 ges-. aes,-. r8 r4 r8 gis''16-. fis,-. | %005
+  g-. e'-. r8 r4 r4 | %006
+  \time 4/4 r16 c,16(\f\> b d g, c b d g,)\p g'(\f\> cis, fis, c! g'' cis, fis, | %007
+  c! g'')\p e,-.\mf d-. a''-. fis-. cis_(\p\< fis, c! g'' cis, fis, c!)\f fis-.\mf c''-. b,-. | %008
+  d'8-- r8 \tuplet 3/2 { g8(\mp fis4) } fis,8.( c'16) b8( a) | %009
+  \time 3/16 d,,16[-. a''-. ges,]-. | %010
+  \time 3/4 f'2~ f8 r8 | %011
+  \time 4/4  r16 bes8.~\pp bes4~ bes8 r8 r8. f16-.\mp | %012
+  bes,,-. b''! g8~( \tuplet 3/2 { g4 cis8 } cis8) g16-. ges,-. aes'-. ees,-. r8 | %013
+  \time 3/8 des'4. | %014
+  \time 4/4 \tuplet 3/2 { ges4\< c,4 b' } \tuplet 3/2 { b g' cis,~\f } | %015
+  \time 5/8 cis4 a'4. | %016
+  \time 3/16 r16 ges,,8\mp | %017
+  \time 4/4 aes'8 ges c,4 \breathe g''4~(\< g8 \tuplet 3/2 { cis,16 a dis,-.)\f } | %018
   r8 <ceh eeh cis' gis'>8 \offset Y-offset 5 ^\markup {
     \center-column {  \override \fingeringSize
       \woodwind-diagram
@@ -62,8 +62,8 @@
         #'saxophone
         #'((cc . (one two three four five six)) (lh . (b)) (rh . (low-c ees)))
     }
-  }
-  \time 2/4 16 r16 cis4 \tuplet 3/2 { cis'16(\< a' f' }
+  } | %019
+  \time 2/4 16 r16 cis4 \tuplet 3/2 { cis'16(\< a' f' } | %020
   \time 3/8 ges16)-.\f <gih c, ceh,>8. \offset Y-offset 5 ^\markup {
     \center-column {  \override \fingeringSize
       \woodwind-diagram
@@ -71,7 +71,7 @@
         #'((cc . (two three five six)) (lh . (low-bes)) (rh . ()))
     }
   }
-  r8 |
+  r8 | %021
   \time 4/4 \tuplet 3/2 { fis,,4 gis'8( } \tuplet 3/2 { dis4) b'8( } <b, c' geh'>8) \offset Y-offset 5 ^\markup {
     \center-column {  \override \fingeringSize
       \woodwind-diagram
@@ -79,8 +79,8 @@
         #'((cc . (one two three four five)) (lh . (low-bes)) (rh . (c low-c)))
     }
   }
-
-  a'4( aes16 ges ges, f8. bes,2~\> bes8)\mp r8 |
+  a'4( aes16 ges | %022
+  ges, f8. bes,2~\> bes8)\mp r8 | %023
   \time 3/4 b16-. g''-. cis,,-. fis'-. r4 fis16-. g,-. e'-. d'-. |
   R1*3/4 |
   d,,16-. g'-. fis-. e,-. r8 g16(\pp fis c' des g, fis) |
